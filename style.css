@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.pixel-art {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-template-rows: repeat(9, 40px);    
+    grid-gap: 2px;
+}
+
+
+.pixel {
+    width: 40px;
+    height: 40px;
+}
+
+
+.pixel.skin {
+    background-color: #f1c27d; /* Cor da pele */
+}
+
+.pixel.blue {
+    background-color: #4682b4; /* Cor do corpo e pernas */
+}
+
+.pixel.black {
+    background-color: black; /* Cor dos olhos e boca */
+}
+
+.pixel.brown {
+    background-color: #8B4513; /* Cor do cabelo */
+}
